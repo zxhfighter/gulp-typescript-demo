@@ -1,0 +1,17 @@
+{
+    "files": [
+        "./gulpfile.ts"
+    ],
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "lib": [
+            "es2015",
+            "dom",
+            "es2016.array.include"
+        ],
+        "outDir": "../dist/tools/gulp"
+    }
+}
